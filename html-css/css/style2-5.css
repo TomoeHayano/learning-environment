@@ -1,0 +1,25 @@
+/* 2-5問題 */
+* {
+    color: black;
+    line-height: 1;
+  }
+  
+  .number__child {
+    padding-left: 40px;
+  }
+
+ .number__child:not(p:first-of-type) {
+    color: blue;
+  }
+ .number__parent:nth-of-type(3),
+ .number__parent:nth-of-type(6) {
+  color: red;
+}
+
+div {
+  background: #ff0000;
+  width: 400px;
+  height: 200px;
+  margin: 50px auto;
+  background: yellow;
+}
